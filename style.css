@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: metropolis;
+}
+body{
+   background-image: url("images/background-image.png");
+   background-position: bottom;
+   height: 100vh;
+   background-repeat: no-repeat;
+   max-width: 3000px;
+   margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-left img{
+    align-items: center;
+}
+.navbar-middle ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.navbar-middle a{
+   font-size: 18px;
+   text-decoration: none;
+}
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    font-weight: bold;
+}
+.navbar-right>button{
+    padding: 8px 15px ;
+    border: none;
+    color: #ffffff;
+    background-color: #ED017F;
+    border-radius: 5px;
+}
+/*---main content-----*/
+.button button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px grey;
+}
+.main-hero{
+    display: flex;
+    justify-content: space-around;
+}
+.main-hero-text h1{
+    font-size: 70px;
+    margin-left: 50px;
+}
+.main-hero-text p{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main-hero-text button{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.main-hero-text #special{
+    background-color: #ED017F;
+}
+.main-hero-contact img{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.main-hero-contact strong{
+    display: inline-block;
+}
+
+/*----Main hero-------*/
+.main-hero-right #home-loans {
+   position: absolute;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    width: 155px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 30px;
+    right: 10%;
+    top: 25%;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 10px 10px 50px grey;
+    
+}
+
